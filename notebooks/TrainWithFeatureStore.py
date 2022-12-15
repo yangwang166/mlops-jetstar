@@ -119,8 +119,8 @@ display(taxi_data)
 from databricks.feature_store import FeatureLookup
 import mlflow
 
-pickup_features_table = "feature_store_taxi_example.trip_pickup_features"
-dropoff_features_table = "feature_store_taxi_example.trip_dropoff_features"
+pickup_features_table = "jetstar_feature_store_taxi_example.trip_pickup_features"
+dropoff_features_table = "jetstar_feature_store_taxi_example.trip_dropoff_features"
 
 pickup_feature_lookups = [
     FeatureLookup(
