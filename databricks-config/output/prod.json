@@ -1,0 +1,27 @@
+{
+  "mlops-jetstar_batch_inference_job_id": {
+    "sensitive": false,
+    "type": "string",
+    "value": "303789071476343"
+  },
+  "mlops-jetstar_experiment_id": {
+    "sensitive": false,
+    "type": "string",
+    "value": "319082705524022"
+  },
+  "mlops-jetstar_experiment_name": {
+    "sensitive": false,
+    "type": "string",
+    "value": "/mlops-jetstar/prod-mlops-jetstar-experiment"
+  },
+  "mlops-jetstar_model_name": {
+    "sensitive": false,
+    "type": "string",
+    "value": "prod-mlops-jetstar-model"
+  },
+  "mlops-jetstar_training_job_id": {
+    "sensitive": false,
+    "type": "string",
+    "value": "108823868755111"
+  }
+}
