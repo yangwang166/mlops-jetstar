@@ -7,7 +7,7 @@ terraform {
     bucket         = "mlops-jetstar-tfstate"
     key            = "staging.terraform.tfstate"
     dynamodb_table = "mlops-jetstar-tfstate-lock"
-    region         = "us-east-1"
+    region         = "ap-southeast-2"
   }
   required_providers {
     databricks = {
