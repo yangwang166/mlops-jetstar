@@ -51,7 +51,9 @@ mlflow.set_experiment(experiment_name)
 # DBTITLE 1, Load raw data
 
 raw_data = spark.read.format("delta").load(input_table_path)
+print("fix something")
 display(raw_data)
+
 
 # COMMAND ----------
 
