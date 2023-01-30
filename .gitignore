@@ -14,3 +14,7 @@ venv
 *.egg-info/
 build
 dist
+.databricks/
+.metals/
+.vscode/
+typings/
